@@ -33,9 +33,20 @@ GOOGLE_API_KEY="your-google-gemini-key-here"
 TAVILY_API_KEY="your-tavily-search-key-here"
 ```
 
-### 3. Install Dependencies
-Make sure you have Python installed. Install all the necessary packages (FastAPI, SQLAlchemy, LangGraph, etc.) using `pip`:
+### 3. Create Virtual Environment & Install Dependencies
+Make sure you have Python installed. It is highly recommended to use a virtual environment:
+
+**For Windows:**
+```powershell
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+**For macOS/Linux:**
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
